@@ -9,9 +9,9 @@ const templateTypes = [
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', {
-    title: 'EJS',
-    descriptor: "better!",
+  res.render('home', {
+    title: 'Handlebars',
+    //descriptor: "better!",
     templates: templateTypes
   });
 });
